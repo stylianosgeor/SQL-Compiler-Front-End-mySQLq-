@@ -23,6 +23,7 @@ How it Works Under the Hood
 2. Bison (Parser): Takes the Tokens and evaluates them against the language's BNF grammar. It handles operator precedence (AND, OR, NOT) to avoid shift/reduce conflicts.
 3. C++ (Semantic Analyzer): Integrated directly into Bison actions. It manages state (Symbol Tables) to remember previously declared tables. Since `SELECT` columns are read before the `FROM` clause, they are stored in a temporary C++ vector and validated *after* the tables are known.
 
+The repository also includes a test sql file that is used to test for syntax errors/semantic errors.
 Getting Started
 
 Prerequisites:
