@@ -1,8 +1,8 @@
 mySQLq - SQL Compiler Front-End
 
-A custom, one-pass compiler front-end for a simplified SQL dialect (mySQLq). Built as a university project for the "Principles of Programming Languages & Compilers" course, using **C++, Flex, and Bison**.
+I build a custom, one-pass compiler front-end for a simplified SQL dialect (mySQLq), using C++, Flex, and Bison.
 
-This program does not act as a database engine (it doesn't store data). Instead, it acts as a **strict syntax and semantic validator**. It parses raw SQL files, validates the grammar, and strictly enforces scoping and typing rules during parse time.
+This program does not act as a database engine (it doesn't store data). Instead it acts as a strict syntax and semantic validator. It parses raw SQL files validates the grammar and strictly enforces scoping and typing rules during parse time.
 
 Tech Stack
 Lexical Analysis: Flex
